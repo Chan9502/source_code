@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JC-STORE</title>
+</head>
+<!-- Font awsome CND link-->
+<!-- use icon by icon's name -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+<script src="https://kit.fontawesome.com/cb31b1591a.js" crossorigin="anonymous"></script>
+
+<!-- swipper CDN link -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+<!-- custom CSS file link-->
+<link rel="stylesheet" href="./assetss/css/style.css">
+<link rel="stylesheet" href="./assetss/css/cart-style.css">
+<link rel="stylesheet" href="./assetss/css/bootstrap.min.css" type="text/css">
+
+<body>
+    <!-- Header section start -->
+    <header class="header">
+        <!-- banner -->
+        <div class="header-1">
+            <a href="#" class="logo"><i class="fa fa-book-open-reader"></i>JC-STORE</a>
+
+            <!-- form search input -->
+           <form action="" class="search-form">
+                <input type="search" name="" placeholder="Nhập từ khóa cần tìm...." id="" class="search-box">
+                <label for="search-box" class = "fa fa-search"></label>
+           </form>
+
+           <!-- icons for navigation -->
+           <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#home" class="fas fa-home"></a> <!--Back to main page-->
+                <a href="#DanhMuc" class="fas fa-list"></a> <!--your favourite book-->
+                <a href="#" class="fas fa-shopping"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+           </div>
+        </div>
+
+        <div class="header-2">
+            <div class="navbar">
+                <a href="#home">TRANG CHỦ</a>
+                <a href="#gioi_thieu">GIỚI THIỆU</a>
+                <a href="#danh_muc">DANH MỤC</a>
+                <a href="#khuyen_mai">KHUYẾN MÃI</a>
+                <a href="#lien_he">LIÊN HỆ</a>
+            </div>
+        </div>
+    </header>
+    <!-- Header section end -->
+     
+    <!-- home section starts -->
+    <section class="home" id="home">
+        <div class="row">
+            <div class="content">
+                <h3>Một cuốn sách là một giấc mơ mà bạn cầm trong tay</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore magnam natus sapiente culpa veniam reprehenderit quibusdam, quam officiis modi saepe illum laudantium fugiat facere laboriosam maiores unde quas sequi omnis.</p>
+                <a href="#" class="btn">Xem thêm</a>
+            </div>
+            <div class="swiper books-slider">
+                <div class="swiper-wrapper">
+                    <!-- <a href="#" class="swiper-slide"><img src="./imges/new_book/book_01.jpg" alt=""></a> -->
+                    <a href="#" class="swiper-slide"><img src="./imges/showBook/book_02.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="./imges/showBook/book_03.webp" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="./imges/showBook/book_04.webp" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="./imges/showBook/book_05.webp" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="./imges/showBook/book_06.webp" alt=""></a>
+                </div>
+                <img src="./imges/stand.png" class="stand" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- icons section strart -->
+    <div class="icons-container">
+    
+        <div class="icons">
+            <i class="fas fa-truck-fast"></i>
+            <div class="content">
+                <h3>Miễn phí giao hàng</h3>
+                <p>Đối với hóa đơn trên 500K</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-lock"></i>
+            <div class="content">
+                <h3>Thanh toán</h3>
+                <p>An toàn, bào mật, nhanh chóng</p>
+            </div>
+        </div>
+        
+        <div class="icons">
+            <i class="fas fa-redo-alt"></i>
+            <div class="content">
+                <h3>Hoàn trả dễ dàng</h3>
+                <p>Kiểm tra khi nhận hàng, hoàn trả miễn phí</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-headset"></i>
+            <div class="content">
+                <h3>Hỗ trợ 24/7</h3>
+                <p>Sát cánh bên bạn mọi lúc mọi nơi</p>
+            </div>
+        </div>
+    </div>
+    <!-- icons section end -->
+
+     <!-- newsletter section start -->
+     <section class="newsletter row">
+        <form action="">
+           <h3>Hãy đăng kí để nhận thông báo ngay khi có sách mới</h3>
+           <input type="email" placeholder="Điền Email của bạn..." name="" id="" class="box">
+           <input type="submit" value="Nhấn đăng kí" class="btn">
+        </form>
+   </section>
+   <!-- newsletter section end -->
+
+    <!-- best seller collection start -->
+    <section class="featured" id="feaetured">
+        <div class="heading">
+            <h1><span>Danh Mục</span></h1>
+        </div>
+        <ul class="featureds">
+            <li>
+                <div class="featureds-item incountry">
+                    <div class="featureds-top">
+                        <a href="" class="featureds-thumb">
+                            <img src="./imges/best_seller/book_08.webp" alt="">
+                        </a>
+                    </div>
+
+                    <div class="featureds-info">
+                        <a href="" class="featureds-name">Hạnh Phúc Đích Thực (Tái Bản)</a>
+                        <div class="featureds-price">77.000 ₫ <span>96.000 ₫</span></div>
+                    </div>
+                    <div class="add-shopping-btn">
+                        <button>Thêm</button>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="featureds-item incountry">
+                    <div class="featureds-top">
+                        <a href="" class="featureds-thumb">
+                            <img src="./imges/best_seller/book_09.webp" alt="">
+                        </a>
+                    </div>
+
+                    <div class="featureds-info">
+                        <a href="" class="featureds-name">Tuổi Trẻ Đáng Giá Bao Nhiêu (Tái Bản)</a>
+                        <div class="featureds-price">66.100 ₫ <span>90.000 ₫</span></div>
+                    </div>
+                    <div class="add-shopping-btn">
+                        <button>Thêm</button>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="featureds-item excountry">
+                    <div class="featureds-top">
+                        <a href="" class="featureds-thumb">
+                            <img src="./imges/best_seller/book_10.webp" alt="">
+                        </a>
+                    </div>
+
+                    <div class="featureds-info">
+                        <a href="" class="featureds-name">Ám Ảnh Sợ Xã Hội - Chạy Trốn Hay Đối Mặt</a>
+                        <div class="featureds-price">87.000 ₫ <span>125.000 ₫</span></div>
+                    </div>
+                    <div class="add-shopping-btn">
+                        <button>Thêm</button>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="featureds-item excountry">
+                    <div class="featureds-top">
+                        <a href="" class="featureds-thumb">
+                            <img src="./imges/best_seller/book_11.webp" alt="">
+                        </a>
+                    </div>
+
+                    <div class="featureds-info">
+                        <a href="" class="featureds-name">Không Ai Có Thể Làm Bạn Tổn Thương Trừ Khi Bạn Cho Phép</a>
+                        <div class="featureds-price">119.000 ₫ <span>135.000 ₫</span></div>
+                    </div>
+                    <div class="add-shopping-btn">
+                        <button>Thêm</button>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="featureds-item excountry">
+                    <div class="featureds-top">
+                        <a href="" class="featureds-thumb">
+                            <img src="./imges/best_seller/book_12.webp" alt="">
+                        </a>
+                    </div>
+
+                    <div class="featureds-info">
+                        <a href="" class="featureds-name">Hiệu Sách Nhỏ Ở Paris (Tái Bản)</a>
+                        <div class="featureds-price">121.500 ₫ <span>149.000 ₫</span></div>
+                    </div>
+                    <div class="add-shopping-btn">
+                        <button>Thêm</button>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="featureds-item excountry">
+                    <div class="featureds-top">
+                        <a href="" class="featureds-thumb">
+                            <img src="./imges/best_seller/book_13.webp" alt="">
+                        </a>
+                    </div>
+
+                    <div class="featureds-info">
+                        <a href="" class="featureds-name">Tôi Ước Mình Chưa Từng Được Sinh Ra</a>
+                        <div class="featureds-price">67.400 ₫ <span>90.000 ₫</span></div>
+                    </div>
+                    <div class="add-shopping-btn">
+                        <button>Thêm</button>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="featureds-item incountry">
+                    <div class="featureds-top">
+                        <a href="" class="featureds-thumb">
+                            <img src="./imges/best_seller/book_14.webp" alt="">
+                        </a>
+                    </div>
+
+                    <div class="featureds-info">
+                        <a href="" class="featureds-name">Sách - Giận (Tái Bản 2021)</a>
+                        <div class="featureds-price">130.500 ₫ <span>140.000 ₫</span></div>
+                    </div>
+                    <div class="add-shopping-btn">
+                        <button>Thêm</button>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="featureds-item excountry">
+                    <div class="featureds-top">
+                        <a href="" class="featureds-thumb">
+                            <img src="./imges/best_seller/book_15.webp" alt="">
+                        </a>
+                    </div>
+
+                    <div class="featureds-info">
+                        <a href="" class="featureds-name">Sách Đen - Bộ Công Cụ Của Phụ Nữ Thành Đạt</a>
+                        <div class="featureds-price">63.200 ₫ <span>80.000 ₫</span></div>
+                    </div>
+                    <div class="add-shopping-btn">
+                        <button>Thêm</button>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="featureds-item excountry">
+                    <div class="featureds-top">
+                        <a href="" class="featureds-thumb">
+                            <img src="./imges/best_seller/book_16.webp" alt="">
+                        </a>
+                    </div>
+
+                    <div class="featureds-info">
+                        <a href="" class="featureds-name"> Đàn ông sao hỏa - Đàn bà sao kim</a>
+                        <div class="featureds-price">105.00 ₫ <span>160.000 ₫</span></div>
+                    </div>
+                    <div class="add-shopping-btn">
+                        <button>Thêm</button>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="featureds-item excountry">
+                    <div class="featureds-top">
+                        <a href="" class="featureds-thumb">
+                            <img src="./imges/best_seller/book_17.webp" alt="">
+                        </a>
+                    </div>
+
+                    <div class="featureds-info">
+                        <a href="" class="featureds-name">Muôn kiếp nhân sinh</a>
+                        <div class="featureds-price">55.500 ₫ <span>130.000 ₫</span></div>
+                    </div>
+                    <div class="add-shopping-btn">
+                        <button>Thêm</button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="show-more">
+            <input type="submit" value="Xem thêm">
+        </div>
+    </section>
+    <!-- best seller collection end -->
+
+    <!--Cart section starts-->
+    <section class="cart">
+        <h2>Giỏ hàng</h2>
+        <form action="">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="product-img">Sản phẩm</th>
+                        <th class="product-price">Giá</th>
+                        <th class="product-qty">Số lượng</th>
+                        <th class="product-action">Xóa</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- <tr>
+                        <td style="display:flex; align-items: center;"><img style="width:30%;" src="./imges/best_seller/book_08.webp" alt=""><span>Sach 1</span></td>
+                        <td class="product-price"><p><span>234</span><sup>đ</sup></p></td>
+                        <td><input style="width: 25%; outline:none;" type="number" value="1" min="0"></td>
+                        <td style="cursor:pointer;"><i class="fas fa-trash"></i></td>
+                    </tr>
+
+                    <tr>
+                        <td style="display:flex; align-items: center;"><img style="width:30%;" src="./imges/best_seller/book_09.webp" alt=""><span>Sach 1</span></td>
+                        <td class="product-price"><p><span>234</span><sup>đ</sup></p></td>
+                        <td><input style="width: 25%; outline:none;" type="number" value="1" min="0"></td>
+                        <td style="cursor:pointer;"><i class="fas fa-trash"></i></td>
+                    </tr> -->
+
+                </tbody>
+            </table>
+            <div class="price-total">
+                <p>Tổng tiền: <span class="product-price">0</span><sup>đ</sup></p>
+            </div>
+        </form>
+    </section>
+    <!--Cart section ends-->
+
+    <!-- deal section starts -->
+    <section class="deal row">
+        <!-- content -->
+        <div class="content">
+            <h3>Khuyến mãi lớn trong tháng 9 này</h3>
+            <h1>Lên đến 50%</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum impedit labore optio deleniti doloribus ad, pariatur debitis magnam ipsa, id aut enim cumque fugiat veniam quae quo provident, consequuntur excepturi.</p>
+            <a href="#" class="btn">MUA NGAY</a>
+        </div>
+        <!-- img -->
+        <div class="image">
+            <img src="./imges/sale_banner.png" alt="">
+        </div>
+    </section>
+    <!-- deal section ends -->
+
+    <!-- reviews section starts -->
+    <section class="reviews" id="reviews">
+        <h1 class="heading"><span>Cảm nhận của khách hàng</span></h1>
+        <div class="swiper reviews-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="./imges/customer/pic-6.png" alt="">
+                    <h3>Kim Thành</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta maxime error, aliquam hic, fugiat rerum itaque quo officiis dolores, aperiam deserunt placeat accusamus nihil vitae quam! Nam illo unde adipisci?</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <!-- <i class="fas fa-star"></i>  -->
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./imges/customer/pic-3.png" alt="">
+                    <h3>Minh Anh</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta maxime error, aliquam hic, fugiat rerum itaque quo officiis dolores, aperiam deserunt placeat accusamus nihil vitae quam! Nam illo unde adipisci?</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i> 
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./imges/customer/pic-5.png" alt="">
+                    <h3>Tuấn Việt</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta maxime error, aliquam hic, fugiat rerum itaque quo officiis dolores, aperiam deserunt placeat accusamus nihil vitae quam! Nam illo unde adipisci?</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i> 
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./imges/customer/pic-4.png" alt="">
+                    <h3>Ngọc Kim</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta maxime error, aliquam hic, fugiat rerum itaque quo officiis dolores, aperiam deserunt placeat accusamus nihil vitae quam! Nam illo unde adipisci?</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i> 
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./imges/customer/pic-2.png" alt="">
+                    <h3>Hồng Hạnh</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta maxime error, aliquam hic, fugiat rerum itaque quo officiis dolores, aperiam deserunt placeat accusamus nihil vitae quam! Nam illo unde adipisci?</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i> 
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- reviews section ends -->
+
+    <!-- Footer -->
+    <!-- section footer starts -->
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>CHI NHÁNH</h3>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Hà Nội</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Đà Nẵng</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Nha Trang</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>HCM</a>
+            </div>
+
+            <div class="box">
+                <h3>TRUY CẬP NHANH</h3>
+                <a href="#home"><i class="fas fa-arrow-right"></i>Trang chủ</a>
+                <a href="#danh_muc"><i class="fas fa-arrow-right"></i>Danh mục</a>
+                <a href="#khuyen_mai"><i class="fas fa-arrow-right"></i>Khuyến mãi</a>
+                <a href="#lien_he"><i class="fas fa-arrow-right"></i>Liên hệ</a>
+            </div>
+
+            <div class="box">
+                <h3>THÔNG TIN THÊM</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>Đăng nhập</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Giỏ hàng</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Thanh toán</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Giao hàng</a>
+            </div>
+
+            <div class="box">
+                <h3>LIÊN HỆ</h3>
+                <a href="#"><i class="fas fa-phone"></i>(+84) 0123 456 789</a>
+                <a href="#"><i class="fas fa-fax"></i>123 999 222</a>
+                <a href="#"><i class="fas fa-envelope"></i>123@gmail.com</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Website</a>
+            </div>
+
+        </div>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="credit"> Created by ChanStep <span> ChanStep web dev</span> | all rights reserved! </div>
+
+    </section>
+
+    <!-- section footer ends -->
+
+    <!-- swiper CDN link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- custom js fle link-->
+    <script src="./assetss/js/main.js"></script>
+    <!-- <script src="./js/validate.js"></script> -->
+
+</body>
+</html>

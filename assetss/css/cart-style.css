@@ -1,0 +1,36 @@
+.cart{
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: .5rem;
+}
+.cart h2{
+    margin-bottom: 1rem;
+}
+.cart table{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+.cart table thead tr th:first-child{
+    text-align: left;
+}
+.cart table thead tr th:last-child,
+.cart table tbody tr td:last-child{
+    text-align: right;
+}
+
+.cart table tr td{
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;;
+}
+.cart table tr td i:hover{
+    color: #45ccb8;
+}
+.cart form .price-total{
+    font-weight: bold;
+}
+.cart form div{
+    text-align: right;
+}
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assetss/css/style.css">
+</head>
+<body>
+    <!-- login-form -->
+    <div class="login-form-container">
+        <!-- close login icon -->
+    <div id="close-login-btn" class = "fas fa-times"></div>
+        <form action="loginController" onsubmit="return validateFormOnSubmit()" method="post">
+            <h3>Đăng Nhập</h3>
+            <span>Tên Đăng Nhập</span>
+            <input type="text" name="username" class="box" placeholder="Nhập tên đăng nhập..." id="userName">
+            
+            <span>Mật Khẩu</span>
+            <input type="password" name="password" class="box" placeholder="Nhập mật khẩu...." id="password">
+
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="" class="remember-me">Ghi nhớ mật khẩu</label>
+            </div>    
+                <input type="submit" value="Đăng Nhập" class="btn" id="login-btn">
+                <p>Quên mật khẩu ? <a href="#">Click tại đây</a></p>
+                <p>Đăng kí tài khoản ? <a href="#">Tạo tài khoản</a></p>
+        </form>
+    </div>
+</body>
+</html>
